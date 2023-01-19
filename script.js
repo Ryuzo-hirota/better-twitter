@@ -1,5 +1,4 @@
 window.onload = ()=> {
-  // URLの取得
   let url = location.href;
   if (url == "http://mobile.twitter.com/home") {
     window.setTimeout(hoge, 1000);
