@@ -1,0 +1,26 @@
+@charset "utf-8";
+
+article[data-testid=tweet] > div > div > div > div > div > div  div[role=group][id] > div:nth-child(4) {
+    display: none;
+}
+/*
+article[data-testid=tweet] > div > div > div > div > div[role=group] > div:first-child > div:first-child {
+    display: none;
+}*/
+
+div[aria-label="タイムライン: 話題を検索"] [role="article"]{
+    display: none;
+}
+
+div[aria-label="タイムライン: 話題を検索"] [role="heading"]{
+    display: none;
+}
+
+a[aria-labelledby^="topic"]{
+    display: none;
+}
+
+
+div[data-testid=ScrollSnap-List] a[href="/home"]{
+    display: none;
+}
